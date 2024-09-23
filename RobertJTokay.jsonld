@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "RobertJTokay",
+    "motivations": "Born in 1977, I have plenty of life and professional experiences which will serve me well.  I'm a husband and father of 4 children with ages ranging from 1 to 18.  I have experience running multiple businesses.  I develop annual business plans (budgets) and manage the businesses in line with those plans.",
+    "objectives": "I want to ensure the core principles and values are maintained as the Cardano ecosystem evolves over time.  ",
+    "paymentAddress": "addr1qxr39m2jlsygkdvkc6huy4pqug7kt8uzfhvfya49xzu3ztwg7efc5zayt9rcsl2jxvjavwkct42rhh97ae65ry5laajsydrqsz",
+    "qualifications": "I'm a CPA and have held the title of CFO for various privately held organizations so I understand the importance of developing and maintaining sound budgets.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Key Performance Consultants - Fractional CFO business",
+        "uri": "https://www.kpc-cfo.com/"
+      },
+      {
+        "@type": "Identity",
+        "label": "LinkedIn Profile",
+        "uri": "https://www.linkedin.com/in/robert-tokay-34756415b/"
+      }
+    ]
+  }
+}
