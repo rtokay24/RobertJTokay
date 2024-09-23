@@ -55,18 +55,13 @@
   "body": {
     "doNotList": false,
     "givenName": "RobertJTokay",
-    "motivations": "Born in 1977, I have plenty of life and professional experiences which will serve me well.  I'm a husband and father of 4 children with ages ranging from 1 to 18.  I have experience running multiple businesses.  I develop annual business plans (budgets) and manage the businesses in line with those plans.",
-    "objectives": "I want to ensure the core principles and values are maintained as the Cardano ecosystem evolves over time.  ",
-    "paymentAddress": "addr1qxr39m2jlsygkdvkc6huy4pqug7kt8uzfhvfya49xzu3ztwg7efc5zayt9rcsl2jxvjavwkct42rhh97ae65ry5laajsydrqsz",
-    "qualifications": "I'm a CPA and have held the title of CFO for various privately held organizations so I understand the importance of developing and maintaining sound budgets.",
+    "motivations": "I want to be a DRep because I have a wife and 4 children.  My childrens' ages range from 1 year old to 18 years old.  They are young and I'm fighting for their future.  In my professional career, I've lived through 9/11.  I've lived through the bank bailouts in 2008 and 2009.  I've worked through the challenges from COVID-19 and watched our country continue to give billions to funds wars through those decades.  I'm 47.  I have a lot of energy and a lot of experience to help drive change for their future and generations after.  That's a legacy I want to leave them and the children of friends and other family members.  I want to help turn the tide and redirect our future.",
+    "objectives": "I joined the community late 2017/early 2018 because I saw Charles' vision.  I believe in giving economic identity to everyone.  I believe in freedom of wealth.  I lack trust in our current US government and the legacy media.  This project.  This community.  It's the greatest way to fight back for our freedom (peacefully) that continues to erode every single day that goes by.  I want to help preserve that vision and not allow external forces to compromise this community or this project.  ",
+    "paymentAddress": "addr1qxh5pqgzvram05cvqsdp7nm0nver8xk6suh04z3mle6h6y0j2jgwwf0u7k4dkv3eze5js2azz76faxrfa3p282czr9hs0s8mrl",
+    "qualifications": "I am a dynamic and results-driven executive with over 15 years of experience in developing and leading organizations to achieve significant growth and efficiency improvements. As a Certified Public Accountant (CPA) with a Master’s Degree in Information Systems Management and specialized training in Lean Six Sigma, I combine my technical expertise with strong interpersonal skills to drive continuous improvement and motivate teams.  I am committed to driving organizational success through strategic planning, operational excellence, and a relentless focus on continuous improvement. ",
     "references": [
       {
         "@type": "Link",
-        "label": "Key Performance Consultants - Fractional CFO business",
-        "uri": "https://www.kpc-cfo.com/"
-      },
-      {
-        "@type": "Identity",
         "label": "LinkedIn Profile",
         "uri": "https://www.linkedin.com/in/robert-tokay-34756415b/"
       }
